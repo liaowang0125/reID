@@ -11,10 +11,10 @@ cd $(dirname ${BASH_SOURCE[0]})/../
 python2 tools/merge_lists_single_task.py \
     --dataset-dirs $DATASETS/3dpes $DATASETS/cuhk01 $DATASETS/cuhk03 \
                    $DATASETS/ilids $DATASETS/prid $DATASETS/viper \
-                   $DATASETS/shinpuhkan \
+                    \
     --db-dirs $DB/3dpes $DB/cuhk01 $DB/cuhk03 \
               $DB/ilids $DB/prid $DB/viper \
-              $DB/shinpuhkan \
+               \
     -- $DB/jstl
 
 DB=$DB/jstl
